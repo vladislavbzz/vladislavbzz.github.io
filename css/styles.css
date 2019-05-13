@@ -1,0 +1,127 @@
+body
+{
+background:#010101 url(images/fon.png) no-repeat center top;
+font:14px Verdana, Arial, Helvetica, sans-serif;
+color:#ссс;
+}
+.header a
+{
+text-align:center;
+font:12px "Arial", Times, serif;
+color:#87CEEB;
+}
+.menu
+{
+height:7%;
+background:#4c4c4c;
+}
+.menu ul
+{
+overflow: hidden;
+}
+.menu ul ul
+{
+display: none;
+margin:0%;
+padding:0%;
+position: absolute;
+}
+.menu ul li
+{
+display:inline-block;
+}
+.menu  li:hover ul
+{
+display:block;
+}
+.menu  li:hover li
+{
+display:block;
+}
+.menu li
+{
+list-style-type: none;
+padding:1%;
+float:left; /* граница сайта */
+}
+.menu li a
+{
+font:18px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+.blok-content
+{
+background:#cbcbcb;
+overflow: hidden;
+height: 80%;
+padding:1% 0.5% 1.5% 0.5%;
+max-width: 100%;
+max-height:100%;
+display: block;
+}
+.blok-video
+{
+background:#cbcbcb;
+overflow: hidden;
+height: 65%;
+padding:5% 0.5% 5% 25%;
+max-width: 100%;
+max-height:100%;
+display: block;
+}
+.blok-registr
+{
+background:#cbcbcb;
+overflow: hidden;
+height: 85.2%;
+padding:1% 0.5% 1.5% 0.5%;
+max-width: 100%;
+max-height:100%;
+display: block;
+}
+.blok-cont
+{
+background:#cbcbcb;
+overflow: hidden;
+height: 57.5%;
+padding:12% 0.5% 1.5% 0.5%;
+max-width: 100%;
+max-height:100%;
+display: block;
+}
+.footer
+{
+padding:0.4%;
+text-decoration: none;
+}
+.footer a
+{
+font:20px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+.kartinka{
+margin-left:30%;
+}
+.kartinka_ver{
+margin-left:40%;
+}
+.kartinka_nadpis{
+margin-left:10%;
+}
+.menu ul > li:hover{
+background-color:#fff;
+}
+.borders{
+display: block;
+height: 15%;
+width: 35%;
+margin-left:30%;
+margin-top:3%;
+}
+.spisok{
+display: block;
+margin-left:0.1%;
+list-style-type: none;
+}
